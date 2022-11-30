@@ -1,0 +1,17 @@
+# This is a basic workflow that is manually triggered
+
+name: Manual workflow
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on: push
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  typer: 
+    uses: mehtakaran9/githobbit/.github/workflows/actions.yml@v1
+    with:
+      owner: jaydranz19
+      repository: sample-js-app
+      branch: main
+      file-mode: false
