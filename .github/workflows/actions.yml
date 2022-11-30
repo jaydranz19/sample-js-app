@@ -13,5 +13,6 @@ jobs:
     with:
       owner: jaydranz19
       repository: sample-js-app
+      target-branch: target
       branch: main
       file-mode: false
