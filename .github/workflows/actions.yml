@@ -8,8 +8,8 @@ on: push
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  typer: 
-    uses: mehtakaran9/githobbit/.github/workflows/actions.yml@v1
+  typer:
+    uses: mehtakaran9/githobbit/.github/workflows/actions.yml@main
     with:
       owner: jaydranz19
       repository: sample-js-app
